@@ -4,8 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-poppins:Poppins, sans-serif;
-  --color-shop-yellow: #FFE996;
+  --font-poppins: "Poppins", sans-serif;
+  --color-shop_yellow: #c7aa28;
+  --color-shop_light_yellow: #ecd13c;
   --color-shop_dark_green: #063c28;
   --color-shop_btn_dark_green: #063d29;
   --color-shop_light_bg: #f6f6f6;
@@ -129,5 +130,8 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  .hoverEffect{
+    @apply transition-all duration-300 ease-in-out;
   }
 }
