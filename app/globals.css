@@ -134,4 +134,7 @@
   .hoverEffect{
     @apply transition-all duration-300 ease-in-out;
   }
+  button {
+    @apply hover:cursor-pointer;
+  }
 }
