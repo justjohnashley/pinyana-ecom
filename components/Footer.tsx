@@ -44,14 +44,14 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className='space-y-4'>
+          {/* <div className='space-y-4'>
             <SubtTitle>Want to be a Retailer?</SubtTitle>
             <SubText>Enter your email to get started!</SubText>
             <form className='space-y-3'>
               <Input placeholder="Enter email" type="email" required className='text-white border-shop_light_yellow placeholder:text-shop_lightest_yellow-80' />
               <Button className='w-full bg-shop_dark_green hover:bg-shop_light_yellow hover:text-shop_dark_green hoverEffect'>Submit</Button>
             </form>
-          </div>
+          </div> */}
           
         </div>
         <div className="py-6 border-t text-center text-sm text-white/70">

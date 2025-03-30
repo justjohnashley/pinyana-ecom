@@ -14,6 +14,7 @@ const Logo = ({className}:{className?:string}) => {
      <Image
         src="/images/web-yellow.png"
         alt="Piñana"
+        fill
         className={cn("absolute inset-0 w-full h-full object-contain hoverEffect opacity-100 group-hover:opacity-0",className)}
       />
 
@@ -21,6 +22,7 @@ const Logo = ({className}:{className?:string}) => {
       <Image
         src="/images/web-green.png"
         alt="Piñana Gourmet"
+        fill
         className={cn("absolute inset-0 w-full h-full object-contain hoverEffect opacity-0 group-hover:opacity-100",className)}
       />
     </Link>
