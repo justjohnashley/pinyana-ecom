@@ -11,7 +11,7 @@ import { Button } from './ui/button'
 
 const Footer = () => {
   return (
-    <footer className='mb-40 bg-shop_light_green border-t border-shop_light_green'>
+    <footer className='bg-shop_light_green border-t border-shop_light_green'>
     <Container>
         <FooterTop />
         <div className='bg-shop_light_green py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-8'>

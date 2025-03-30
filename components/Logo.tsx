@@ -1,4 +1,5 @@
 import { cn } from '@/lib/utils'
+import Image from 'next/image'
 import Link  from 'next/link'
 import React from 'react'
 
@@ -10,14 +11,14 @@ const Logo = ({className}:{className?:string}) => {
     </h2>*/}
 
      {/* Default Image */}
-     <img
+     <Image
         src="/images/web-yellow.png"
         alt="Piñana"
         className={cn("absolute inset-0 w-full h-full object-contain hoverEffect opacity-100 group-hover:opacity-0",className)}
       />
 
       {/* Hover Image */}
-      <img
+      <Image
         src="/images/web-green.png"
         alt="Piñana Gourmet"
         className={cn("absolute inset-0 w-full h-full object-contain hoverEffect opacity-0 group-hover:opacity-100",className)}

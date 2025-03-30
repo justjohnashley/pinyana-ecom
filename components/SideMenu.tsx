@@ -1,4 +1,4 @@
-import React, { FC, use } from 'react'
+import React, { FC } from 'react'
 import Logo from './Logo'
 import { X } from 'lucide-react'
 import { headerData } from '@/constants/data'
